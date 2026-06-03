@@ -21,7 +21,6 @@ struct PuckMikrofonApp: App {
                 // Gör att alla vyer kan komma åt dessa objekt utan att skicka dem manuellt
                 .environmentObject(store)
                 .environmentObject(locationService)
-                .environmentObject(audioRecorder)
                 .preferredColorScheme(.dark) // Mörkbakgrund för alla vyer
                 .onAppear {
                     // Fråga om platstillstånd direkt när appen öppnas
