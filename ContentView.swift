@@ -23,5 +23,4 @@ struct ContentView: View {
     ContentView()
         .environmentObject(AnecdoteStore())
         .environmentObject(LocationService())
-        .environmentObject(AudioRecorder())
 }
