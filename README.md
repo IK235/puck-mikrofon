@@ -1,11 +1,6 @@
 # Puck Mikrofon
 
-Ett system för att spela in och lyssna på platsbundna anekdoter i Stockholm. Består av en fysisk Arduino-enhet och en SwiftUI-app för iOS.
-
-## Fysisk prototyp (Arduino UNO)
-- Tryck en gång för att starta inspelning — röd LED tänds och buzzer piper
-- Tryck igen för att stoppa — röd LED släcks och buzzer ger lägre ton
-- Komponenter: Arduino UNO, KY-038 mikrofon, tryckknapp, röd LED, buzzer
+Ett system för att spela in och lyssna på platsbundna anekdoter i Stockholm.
 
 ## Digital prototyp (SwiftUI / iOS)
 
