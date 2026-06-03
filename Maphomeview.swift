@@ -256,6 +256,5 @@ struct Triangle: Shape {
     NavigationStack { MapHomeView() }
         .environmentObject(AnecdoteStore())
         .environmentObject(LocationService())
-        .environmentObject(AudioRecorder())
 }
 
