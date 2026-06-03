@@ -17,7 +17,7 @@ extension CLLocationCoordinate2D {
     }
 }
 
-/// Kartvy låst till Stockholms stadsmuseum och närmsta kvarter (skolprojekt: “station” vid museet).
+// Kartan låses till Stockholms stadsmuseum så användaren inte kan scrolla utanför området
 enum MuseumMapBounds {
     /// Ryssgården / Stockholms stadsmuseum — ankarpunkt för kartan.
     static let museumCenter = CLLocationCoordinate2D(latitude: 59.3198, longitude: 18.0715)
