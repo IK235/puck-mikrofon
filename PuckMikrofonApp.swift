@@ -14,7 +14,6 @@ struct PuckMikrofonApp: App {
     // @StateObject ser till att de inte förstörs när vyer ritas om
     @StateObject private var store = AnecdoteStore()
     @StateObject private var locationService = LocationService()
-    @StateObject private var audioRecorder = AudioRecorder()
 
     var body: some Scene {
         WindowGroup {
