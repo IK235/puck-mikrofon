@@ -20,7 +20,7 @@ struct PlaybackView: View {
         return anecdote.title
     }
 
-  // Huvudvy — kombinerar anekdottitel, vågformanimation, progress bar och play-kontroller
+  // Spelarvy — titel överst, vågform + progress bar i mitten, play-knappar längst ner
     var body: some View {
         VStack(spacing: 0) {
 
@@ -175,7 +175,7 @@ struct QRShareView: View {
     let anecdote: Anecdote
     @State private var pulseScale: CGFloat = 1.0
 
-    // Huvudvy — kombinerar anekdottitel, vågformanimation, progress bar och play-kontroller
+    // Visar anekdottitel, QR-kod och pulserande ring
     var body: some View {
         VStack(spacing: 24) {
             Text("Dela anekdot")
@@ -234,7 +234,7 @@ struct WaveformView: View {
     var isAnimating: Bool = false
     private let barCount = 40
 
-    // Huvudvy — kombinerar anekdottitel, vågformanimation, progress bar och play-kontroller
+    // 40 staplar — blå för det som spelats, grå för resten
     var body: some View {
         GeometryReader { geo in
             HStack(alignment: .center, spacing: 2) {
