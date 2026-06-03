@@ -8,14 +8,14 @@
 import Foundation
 import CoreLocation
 
-// Kategori för anekdoten — antingen en daglig historia eller en viktig berättelse
+// Dagliga = vardagshistorier, Viktiga = historiska händelser
 enum AnecdoteCategory: String, CaseIterable, Codable, Identifiable {
     case dagliga = "Dagliga"
     case viktiga = "Viktiga"
     var id: String { rawValue }
 }
 
-// En anekdot är en ljudberättelse kopplad till en plats på kartan
+// Datamodell för en anekdot — titel, ljud, plats, kategori
 struct Anecdote: Identifiable, Codable, Equatable {
     let id: UUID
     var title: String
