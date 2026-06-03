@@ -1,0 +1,304 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C8B275482F8153CB0022C60E /* PuckMikrofonApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8B275472F8153C80022C60E /* PuckMikrofonApp.swift */; };
+		C8B2754A2F8156030022C60E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8B275492F8155FE0022C60E /* ContentView.swift */; };
+		C8B2754C2F8156200022C60E /* Anecdote.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8B2754B2F81561D0022C60E /* Anecdote.swift */; };
+		C8B2754E2F8156370022C60E /* Anecdotestore.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8B2754D2F81562F0022C60E /* Anecdotestore.swift */; };
+		C8B275502F8156600022C60E /* Audiorecorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8B2754F2F8156420022C60E /* Audiorecorder.swift */; };
+		C8B275522F8156730022C60E /* Audioplayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8B275512F81566B0022C60E /* Audioplayer.swift */; };
+		C8B275542F81568F0022C60E /* Locationservice.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8B275532F8156830022C60E /* Locationservice.swift */; };
+		C8B275562F8156A80022C60E /* Maphomeview.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8B275552F8156A30022C60E /* Maphomeview.swift */; };
+		C8B275582F8156CE0022C60E /* Anecdotelistview.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8B275572F8156BB0022C60E /* Anecdotelistview.swift */; };
+		C8B2755A2F8156EF0022C60E /* Playbackview.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8B275592F8156EA0022C60E /* Playbackview.swift */; };
+		C8B2755C2F8157140022C60E /* Shareanecdoteview.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8B2755B2F8157090022C60E /* Shareanecdoteview.swift */; };
+		C8B275622F81575A0022C60E /* Locationpickerview.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8B275612F8157510022C60E /* Locationpickerview.swift */; };
+		C8B275682F81579D0022C60E /* Infoview.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8B275672F8157980022C60E /* Infoview.swift */; };
+		C8B2756A2F8157B10022C60E /* Buttonstyles.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8B275692F8157AC0022C60E /* Buttonstyles.swift */; };
+		C8E187032F99757E004E49BB /* ElevenLabsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8E187022F997575004E49BB /* ElevenLabsService.swift */; };
+		C8E187052F9975B8004E49BB /* BebyggelseService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8E187042F9975B6004E49BB /* BebyggelseService.swift */; };
+		E8A1B2C52F8158000022C60E /* PuckMikrofon/Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E8A1B2C42F8158000022C60E /* PuckMikrofon/Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BD54D6553C728CF0A931EDF8 /* PuckMikrofon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PuckMikrofon.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C8B275472F8153C80022C60E /* PuckMikrofonApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PuckMikrofonApp.swift; sourceTree = "<group>"; };
+		C8B275492F8155FE0022C60E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C8B2754B2F81561D0022C60E /* Anecdote.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Anecdote.swift; sourceTree = "<group>"; };
+		C8B2754D2F81562F0022C60E /* Anecdotestore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Anecdotestore.swift; sourceTree = "<group>"; };
+		C8B2754F2F8156420022C60E /* Audiorecorder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Audiorecorder.swift; sourceTree = "<group>"; };
+		C8B275512F81566B0022C60E /* Audioplayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Audioplayer.swift; sourceTree = "<group>"; };
+		C8B275532F8156830022C60E /* Locationservice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Locationservice.swift; sourceTree = "<group>"; };
+		C8B275552F8156A30022C60E /* Maphomeview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Maphomeview.swift; sourceTree = "<group>"; };
+		C8B275572F8156BB0022C60E /* Anecdotelistview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Anecdotelistview.swift; sourceTree = "<group>"; };
+		C8B275592F8156EA0022C60E /* Playbackview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Playbackview.swift; sourceTree = "<group>"; };
+		C8B2755B2F8157090022C60E /* Shareanecdoteview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shareanecdoteview.swift; sourceTree = "<group>"; };
+		C8B275612F8157510022C60E /* Locationpickerview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Locationpickerview.swift; sourceTree = "<group>"; };
+		C8B275672F8157980022C60E /* Infoview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Infoview.swift; sourceTree = "<group>"; };
+		C8B275692F8157AC0022C60E /* Buttonstyles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Buttonstyles.swift; sourceTree = "<group>"; };
+		C8B2756B2F8157C10022C60E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C8E187022F997575004E49BB /* ElevenLabsService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElevenLabsService.swift; sourceTree = "<group>"; };
+		C8E187042F9975B6004E49BB /* BebyggelseService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BebyggelseService.swift; sourceTree = "<group>"; };
+		E8A1B2C42F8158000022C60E /* PuckMikrofon/Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = PuckMikrofon/Assets.xcassets; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		56D9DEB7209CC2B39E593F03 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		66668A404B70532367F4B2E7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BD54D6553C728CF0A931EDF8 /* PuckMikrofon.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BF9221F1E8462137A4A4E0A9 /* PuckMikrofon */ = {
+			isa = PBXGroup;
+			children = (
+				66668A404B70532367F4B2E7 /* Products */,
+				C8B275472F8153C80022C60E /* PuckMikrofonApp.swift */,
+				C8B275492F8155FE0022C60E /* ContentView.swift */,
+				C8B2754B2F81561D0022C60E /* Anecdote.swift */,
+				C8B2754D2F81562F0022C60E /* Anecdotestore.swift */,
+				C8B2754F2F8156420022C60E /* Audiorecorder.swift */,
+				C8B275512F81566B0022C60E /* Audioplayer.swift */,
+				C8B275532F8156830022C60E /* Locationservice.swift */,
+				C8E187022F997575004E49BB /* ElevenLabsService.swift */,
+				C8E187042F9975B6004E49BB /* BebyggelseService.swift */,
+				C8B275552F8156A30022C60E /* Maphomeview.swift */,
+				C8B275572F8156BB0022C60E /* Anecdotelistview.swift */,
+				C8B275592F8156EA0022C60E /* Playbackview.swift */,
+				C8B2755B2F8157090022C60E /* Shareanecdoteview.swift */,
+				C8B275612F8157510022C60E /* Locationpickerview.swift */,
+				C8B275672F8157980022C60E /* Infoview.swift */,
+				C8B275692F8157AC0022C60E /* Buttonstyles.swift */,
+				C8B2756B2F8157C10022C60E /* Info.plist */,
+				E8A1B2C42F8158000022C60E /* PuckMikrofon/Assets.xcassets */,
+			);
+			name = PuckMikrofon;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		730950AD798A77AD508AA9E2 /* PuckMikrofon */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0380C5979672539A361B2970 /* Build configuration list for PBXNativeTarget "PuckMikrofon" */;
+			buildPhases = (
+				678DFDA984997D39267CB7FC /* Sources */,
+				56D9DEB7209CC2B39E593F03 /* Frameworks */,
+				85132AF6B5F14319CB4C91EC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PuckMikrofon;
+			productName = PuckMikrofon;
+			productReference = BD54D6553C728CF0A931EDF8 /* PuckMikrofon.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1781F676DEDF5767F3243DB0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					730950AD798A77AD508AA9E2 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = 7EE01EAA5B6BF90D4F99CA4C /* Build configuration list for PBXProject "PuckMikrofon" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = sv;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				sv,
+				en,
+				Base,
+			);
+			mainGroup = BF9221F1E8462137A4A4E0A9 /* PuckMikrofon */;
+			productRefGroup = 66668A404B70532367F4B2E7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				730950AD798A77AD508AA9E2 /* PuckMikrofon */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		85132AF6B5F14319CB4C91EC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E8A1B2C52F8158000022C60E /* PuckMikrofon/Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		678DFDA984997D39267CB7FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8B275502F8156600022C60E /* Audiorecorder.swift in Sources */,
+				C8B275622F81575A0022C60E /* Locationpickerview.swift in Sources */,
+				C8B2754C2F8156200022C60E /* Anecdote.swift in Sources */,
+				C8E187052F9975B8004E49BB /* BebyggelseService.swift in Sources */,
+				C8B2754E2F8156370022C60E /* Anecdotestore.swift in Sources */,
+				C8B275682F81579D0022C60E /* Infoview.swift in Sources */,
+				C8B2756A2F8157B10022C60E /* Buttonstyles.swift in Sources */,
+				C8B2755C2F8157140022C60E /* Shareanecdoteview.swift in Sources */,
+				C8B2754A2F8156030022C60E /* ContentView.swift in Sources */,
+				C8B275582F8156CE0022C60E /* Anecdotelistview.swift in Sources */,
+				C8B275522F8156730022C60E /* Audioplayer.swift in Sources */,
+				C8B275482F8153CB0022C60E /* PuckMikrofonApp.swift in Sources */,
+				C8E187032F99757E004E49BB /* ElevenLabsService.swift in Sources */,
+				C8B275542F81568F0022C60E /* Locationservice.swift in Sources */,
+				C8B2755A2F8156EF0022C60E /* Playbackview.swift in Sources */,
+				C8B275562F8156A80022C60E /* Maphomeview.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		053F58BAFC43F8960E441164 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4F4A7965C3638C6669394E27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3BW797CVH8;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = PuckMikrofon/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = se.ikbal.PuckMikrofon;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SWIFT_VERSION = 5.9;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AF48A3761A6AE7CDA48C3D44 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3BW797CVH8;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = PuckMikrofon/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = se.ikbal.PuckMikrofon;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SWIFT_VERSION = 5.9;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D7E4BF5E7E01240363D4195A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0380C5979672539A361B2970 /* Build configuration list for PBXNativeTarget "PuckMikrofon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF48A3761A6AE7CDA48C3D44 /* Debug */,
+				4F4A7965C3638C6669394E27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7EE01EAA5B6BF90D4F99CA4C /* Build configuration list for PBXProject "PuckMikrofon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7E4BF5E7E01240363D4195A /* Debug */,
+				053F58BAFC43F8960E441164 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1781F676DEDF5767F3243DB0 /* Project object */;
+}
